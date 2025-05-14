@@ -1,0 +1,12 @@
+[project]
+name = "mcp-prototype"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi[standard]>=0.115.12",
+    "mcp>=1.8.0",
+    "structlog>=25.3.0",
+]
